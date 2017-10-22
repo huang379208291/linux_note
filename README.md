@@ -29,4 +29,15 @@ vi test.py
 
 ```
 
+## How to git
 
+```
+# how to clone the remote repo
+git clone https://github.com/huang379208291/linux_note.git
+
+# How to update the remote repo 
+git add .
+git commit -m "add git information"
+git push origin master
+
+```

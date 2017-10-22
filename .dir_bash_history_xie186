@@ -1,0 +1,222 @@
+#2017-10-21 Sat 21:07:15
+xie186 has entered /scratch/conte/x/xie186/huang/linux_note from /scratch/conte/x/xie186/huang
+#1508634435
+cd linux_note/
+#1508634436
+ls
+#1508634438
+vi README.md 
+#1508634575
+     ┌────────────────────────────────────────────────────────────────────┐
+#1508634575
+     │                        • MobaXterm 10.4 •                          │
+#1508634575
+     │            (SSH client, X-server and networking tools)             │
+#1508634575
+     │                                                                    │
+#1508634575
+     │ ➤ SSH session to xie186@conte.rcac.purdue.edu                      │
+#1508634575
+     │   • SSH compression : ✔                                            │
+#1508634575
+     │   • SSH-browser     : ✔                                            │
+#1508634575
+     │   • X11-forwarding  : ✔  (remote display is forwarded through SSH) │
+#1508634575
+     │   • DISPLAY         : ✔  (automatically set on remote server)      │
+#1508634575
+     │                                                                    │
+#1508634575
+     │ ➤ For more info, ctrl+click on help or visit our website           │
+#1508634575
+     └────────────────────────────────────────────────────────────────────┘
+#1508634575
+Last login: Fri Sep 15 09:46:17 2017 from dp-93-12.dhcp.ecn.purdue.edu
+#1508634575
+Please send email to rcac-help@purdue.edu to report problems with this cluster.
+#1508634575
+ =============================================================================
+#1508634575
+ ==                   Welcome to the Conte Cluster                          ==
+#1508634575
+ ==  Conte nodes are  comprised of dual 8-core Intel Xeon-E5 CPUs           ==
+#1508634575
+ ==  with 40 Gbps Infiniband. Your scratch is mounted at the path specified ==
+#1508634575
+ ==  in the RCAC_SCRATCH environment variable.                              ==
+#1508634575
+ ==                                                                         ==
+#1508634575
+ ==  New mailing list for researchers interested in high performance        ==
+#1508634575
+ ==  computing for their work.                                              ==
+#1508634575
+ ==  Info: https://lists.purdue.edu/mailman/listinfo/hpc                    ==
+#1508634575
+ ==  Subscribe with email to 'hpc-subscribe@lists.purdue.edu'               ==
+#1508634575
+ ==                                                                         ==
+#1508634575
+ =============================================================================
+#1508634575
+Latest module updates:
+#1508634575
+openmpi 2.1.0 was updated on Sat Oct 21 19:57
+#1508634575
+openblas 0.2.19 was updated on Sat Oct 21 19:57
+#1508634575
+$
+#1508634575
+$ echo  $CLUSTER_SCRATCH
+#1508634575
+/scratch/conte/x/xie186
+#1508634575
+$ cd $CLUSTER_SCRATCH
+#1508634575
+$
+#1508634575
+$ pwd
+#1508634575
+/scratch/conte/x/xie186
+#1508634575
+$
+#1508634575
+$ mkdir huang
+#1508634575
+$ cd h
+#1508634575
+-bash: cd: h: No such file or directory
+#1508634575
+$ cd huang/
+#1508634575
+$
+#1508634575
+$ ls
+#1508634575
+$ pwd
+#1508634575
+/scratch/conte/x/xie186/huang
+#1508634575
+$
+#1508634575
+$ mkdir project_meth_finder
+#1508634575
+$
+#1508634575
+$ cd project_meth_finder/
+#1508634575
+$
+#1508634575
+$ pwd
+#1508634575
+/scratch/conte/x/xie186/huang/project_meth_finder
+#1508634575
+$
+#1508634575
+$ ls
+#1508634575
+$
+#1508634575
+$ cd ..
+#1508634575
+$ ls
+#1508634575
+project_meth_finder
+#1508634575
+$
+#1508634575
+$ pwd
+#1508634575
+/scratch/conte/x/xie186/huang
+#1508634575
+$
+#1508634575
+$ git clone https://github.com/huang379208291/linux_note.git
+#1508634575
+Cloning into 'linux_note'...
+#1508634575
+remote: Counting objects: 6, done.
+#1508634575
+remote: Compressing objects: 100% (4/4), done.
+#1508634575
+remote: Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+#1508634575
+Unpacking objects: 100% (6/6), done.
+#1508634575
+Checking connectivity... done.
+#1508634575
+$
+#1508634575
+$ ^C
+#1508634575
+$
+#1508634575
+$ ls
+#1508634575
+linux_note  project_meth_finder
+#1508634575
+$
+#1508634575
+$ cd linux_note/
+#1508634575
+$
+#1508634575
+$ ls
+#1508634575
+README.md
+#1508634575
+$
+#1508634575
+$ vi README.md
+#1508634575
+# linux_note
+#1508634575
+## Connect Linux server
+#1508634575
+IP adress: conte.rcac.purdue.edu
+#1508634575
+## Work with files and folder
+#2017-10-21 Sat 21:09:35
+xie186 has exited /scratch/conte/x/xie186/huang/linux_note for /scratch/conte/x/xie186
+#1508634575
+```
+echo  $CLUSTER_SCRATCH   ### Go to /scratch/conte/x/xie186
+cd $CLUSTER_SCRATCH
+pwd
+
+cd /scratch/conte/x/xie186/huang
+
+/scratch/conte/x/xie186/huang/project_meth_finder
+
+```
+#1508634575
+## Edit file
+#1508634575
+```
+## How create a new file with vi
+vi test.py
+
+## How edit the fie
+vi test.py
+
+```
+#1508634592
+pwd
+#1508634592
+ls
+#1508634607
+README.md
+#1508634608
+pwd
+#2017-10-21 Sat 21:10:11
+xie186 has entered /scratch/conte/x/xie186/huang/linux_note from /home/xie186
+#1508634611
+cd /scratch/conte/x/xie186/huang/linux_note/
+#1508634612
+ls
+#1508634616
+pwd
+#1508634617
+ls
+#1508634622
+rm test.py 
