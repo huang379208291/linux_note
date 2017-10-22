@@ -19,3 +19,14 @@ cd /scratch/conte/x/xie186/huang
 ```
 
 ## Edit file
+
+```
+## How create a new file with vi
+vi test.py
+
+## How edit the fie
+vi test.py
+
+```
+
+
