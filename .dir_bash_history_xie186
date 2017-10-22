@@ -274,3 +274,23 @@ python test1.py
 vi test1.py
 #1508635521
 vi README.md 
+#1508635592
+git add .
+#1508635609
+git commit -m "update readme; create test1.py"
+#1508635619
+git push origin master
+#1508635636
+git push https://github.com/huang379208291/linux_note.git
+#1508636283
+vi test.pl
+#1508636368
+vi README.md 
+#1508636389
+git push https://github.com/huang379208291/linux_note.git
+#1508636491
+git push ssh://github.com/huang379208291/linux_note.git
+#1508636559
+git push git@github.com:huang379208291/linux_note.git
+#1508636577
+vi README.md 

@@ -54,4 +54,8 @@ Password: <type your password>
 ```
 https://www.edx.org/course?search_query=pyhton
 
+Microsoft Azure Jupyter
+https://notebooks.azure.com/anon-gezcmq/libraries/testHuang
+
+
 ```
