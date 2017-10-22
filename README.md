@@ -40,4 +40,18 @@ git add .
 git commit -m "add git information"
 git push origin master
 
+
+## How to avoid typing username and password everytime
+git config credential.helper store
+git push http://example.com/repo.git
+Username: <type your username>
+Password: <type your password>
+
+```
+
+## MOOC
+
+```
+https://www.edx.org/course?search_query=pyhton
+
 ```

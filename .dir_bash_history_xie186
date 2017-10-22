@@ -220,3 +220,57 @@ pwd
 ls
 #1508634622
 rm test.py 
+#1508634627
+git add .
+#1508634636
+git commit -m "add git information"
+#1508634644
+git push origin master
+#1508634675
+huang379208291
+#1508634711
+git user.name
+#1508634717
+pwd
+#1508634718
+ls
+#1508634784
+vi README.md 
+#1508634827
+git config credential.helper store
+#1508634850
+git push https://github.com/huang379208291/linux_note.git
+#1508634877
+git config --global push.default matching
+#1508634881
+git push https://github.com/huang379208291/linux_note.git
+#1508634939
+more ~/.ssh/id_rsa.pub 
+#1508634966
+git push https://github.com/huang379208291/linux_note.git
+#1508634999
+vi /home/xie186/.ssh/id_rsa.pub 
+#1508635034
+git push https://github.com/huang379208291/linux_note.git
+#1508635092
+vi /home/xie186/.ssh/id_rsa.pub 
+#1508635107
+git push https://github.com/huang379208291/linux_note.git
+#1508635116
+git config credential.helper store
+#1508635117
+git push https://github.com/huang379208291/linux_note.git
+#1508635160
+ls
+#1508635218
+vi test1.py
+#1508635416
+ls
+#1508635430
+python test1
+#1508635453
+python test1.py 
+#1508635488
+vi test1.py
+#1508635521
+vi README.md 
