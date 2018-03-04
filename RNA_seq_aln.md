@@ -34,7 +34,7 @@ python gener_cmd_sra2fq.py  SRR_Acc_List.txt
 ## Get the test data
 head -1000 SRR1761523_1.fastq > test_1.fq
 head -1000 SRR1761523_2.fastq > test_2.fq
-## build index 
+## build index (you don't need to generate the index multiple times.)
 hisat2-build ara_ref.fasta ara_ref.fasta
 ## Align the reads to reference genome
 hisat2 -x ara_ref.fasta -1 test_1.fq -2 test_2.fq > test.sam 
